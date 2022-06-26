@@ -1,1 +1,29 @@
-
+div {
+    border: 1px solid white;
+    padding: 10px;
+}
+.flex_container_1 {
+    font: 100;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.flex_container_1_logo {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+.flex_container_1_not_logo {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-right: 100px;
+}
+.flex_container_1_not_logo > div {
+  padding: 25px;
+  }
+.Home {
+  color: rgb(175, 96, 151);  
+}
