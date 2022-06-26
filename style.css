@@ -59,3 +59,28 @@ div {
     height: 100px;
     justify-content: flex-start;
 }
+.flex_container_3 {
+    flex-direction: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.top_left_image {
+height: 400px;
+width: 60px:
+}
+
+.top_right_image {
+    height: 300px;
+width: 60px:
+}
+
+.bottom_right_image {
+    height: 400px;
+width: 60px:
+}
+
+.bottom_left_image {
+    height: 400px;
+width: 60px:
+}
