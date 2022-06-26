@@ -9,21 +9,35 @@ div {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
+    align-items: flex-start;
 }
 .flex_container_1_logo {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     padding-left: 40px;
 }
 .flex_container_1_not_logo {
    display: flex;
    justify-content: space-between;
-   align-items: center;
    padding-right: 100px;
 }
 .flex_container_1_not_logo > div {
   padding: 25px;
+  align-items: flex-start;
+  color: rgb(155, 37, 37);
   }
-.Home {
-  color: rgb(175, 96, 151);  
+.Home_a{
+  color: rgb(175, 96, 151);
+  font-weight: bold; 
+  text-decoration: none; 
+}
+.Nav_a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo {
+    width: 75px;
+    height: 25px;
 }
