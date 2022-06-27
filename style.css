@@ -26,12 +26,12 @@ div {
   align-items: flex-start;
   color: rgb(155, 37, 37);
   }
-.Home_a{
+.home_a{
   color: rgb(175, 96, 151);
   font-weight: bold; 
   text-decoration: none; 
 }
-.Nav_a{
+.nav_a{
     color: black;
     font-weight: bold;
     text-decoration: none;
@@ -41,12 +41,12 @@ div {
     width: 75px;
     height: 25px;
 }
-.Header_main {
+.header_main {
     font-size: x-large;
     position: relative;
     top: -15px;
 }
-.Header_secondary {
+.header_secondary {
     color: blue;
     font-size: small;
     position: relative;
@@ -71,7 +71,7 @@ width: 60px:
 }
 
 .top_right_image {
-    height: 300px;
+    height: 400px;
 width: 60px:
 }
 
