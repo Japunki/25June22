@@ -1,5 +1,7 @@
-div {
-    border: 1px solid white;
+
+.body {
+    margin: 0px;
+    padding: 0px;
 }
 .flex_container_1 {
     font: 100;
@@ -105,14 +107,17 @@ margin-right: 30px;
     padding-top: 15vh;
     width: 50%;
     margin: auto;
+    margin-bottom: 50px;
 }
 .footer {
-    display: flex;
-    background-color:rgb(23, 13, 13);
-    color:  white;
+    position: relative;
+    height: 50px;
+    background-color: red;
+    bottom: 0px;
+    padding: 25px;
+}
+
+footer > div {
+    color: white;
     text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%
 }
